@@ -1,0 +1,8 @@
+Como resolver ERRO xampp Port 3306 in use by "Unable to open process":
+
+1 - Abra o prompt de comando como administrador
+2 - Digite o seguinte comando: netstat -a -n -o | find "3306" 
+3 - Pegue o numero que aparece na sua lista e digite o comando:
+      taskkill /pid (digite seu numero aqui) /f
+Exemplo:
+               taskkill /pid 1234 /f

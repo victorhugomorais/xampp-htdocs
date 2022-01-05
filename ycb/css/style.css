@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* body{
+    background:
+
+           linear-gradient(
+             rgba(0, 0, 0, 0.7), 
+             rgba(0, 0, 0, 0.7)
+           ),
+           /* bottom, image */
+/*           url(../images/bg.png);
+       }
+        */    
+/* .bg{
+    background-image: url("../images/bg.png");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:cover;
+     background: linear-gradient(
+             rgba(0, 0, 0, 0.1), 
+             rgba(0, 0, 0, 0.1)
+    )
+} */
+
+        .bg {
+            display:table;
+            width:100%;
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/bg.png');
+            background-position:center top;
+            height:350px;
+            background-repeat:no-repeat;
+            -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:cover;
+        }
+
+.margin-yy{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.padding-xx{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.butao{
+    border-radius: 50px!important;
+     background: linear-gradient(to right, #e9b93e , #ffe475)!important;
+      border: none!important;
+       padding: 1% 20%!important;
+}
+
+.spacing{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 600px){
+
+    .spacing{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .img1{
+    width: 200%!important;
+    padding-right: 90%;
+    }
+    .img2{
+        width: 25%!important;
+    }
+    .img3{
+        width: 20%!important;
+    }
+    .logo{
+        size: 75%!important;
+    }
+}
